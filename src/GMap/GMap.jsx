@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./GMap.css";
 import GoogleMapReact from "google-map-react";
 import Popover from "@mui/material/Popover";
 import Typography from "@mui/material/Typography";
+import getMapsApiKey from "./GMapConfig";
 
 // const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
@@ -81,7 +82,7 @@ export default function GMap({ changeLatLon }) {
         <b>{btn_txt}</b>
       </button>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "AIzaSyAaLVvD99DfxJn_vnFkBWoRGyFFU6Ww4E8" }}
+        bootstrapURLKeys={getMapsApiKey()}
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
         onClick={clickedMap}
