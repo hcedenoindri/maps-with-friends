@@ -1,0 +1,33 @@
+.toast {
+  position: absolute;
+  border-radius: 10px;
+  padding: 1.2rem 2.4rem;
+  font-size: 2rem;
+  left: 0%;
+  top: 0%;
+  transition: all 0.5s;
+}
+.toast.up {
+  transform: translateY(-105%);
+}
+.toast.up:hover {
+  transform: translateY(-107%) scale(1.015);
+}
+.toast.down {
+  transform: translateY(105%);
+}
+.toast.down:hover {
+  transform: translateY(107%) scale(1.015);
+}
+.toast.success {
+  color: var(--primary-1);
+  border: 2px solid var(--primary-4);
+  /* background-color: var(--primary-4); */
+}
+.toast.error {
+  border: 2px solid var(--secondary-1-0);
+  /* background-color: var(--secondary-1-4); */
+}
+.toast.error .toast-content {
+  color: var(--secondary-1-0);
+}

@@ -1,0 +1,85 @@
+.user-aside {
+  position: absolute;
+  left: 1%;
+  top: 9%;
+  border-radius: 10px;
+  border: 2px solid var(--secondary-2-1);
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+  padding: 0.6rem 1.2rem;
+  -webkit-backdrop-filter: blur(1em);
+  backdrop-filter: blur(1em);
+  z-index: 99999;
+}
+/* .user-aside.profile-page {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 10px;
+  border: 2px solid var(--secondary-2-1);
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2.4rem;
+  padding: 0.6rem 1.2rem;
+  -webkit-backdrop-filter: blur(1em);
+  backdrop-filter: blur(1em);
+} */
+
+.user-title,
+.user-points {
+  font-size: 2rem;
+  color: var(--secondary-2-1);
+}
+
+.user-avatar-div {
+  width: 90%;
+  height: 90%;
+  cursor: pointer;
+}
+
+.user-avatar-div svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* not working */
+/* .user-avatar-div svg:hover {
+  fill: var(--secondary-2-0);
+} */
+
+.user-options {
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+  -webkit-backdrop-filter: blur(1em);
+  backdrop-filter: blur(1em);
+  /* padding: 2.4rem; */
+  /* border: 2px solid var(--primary-1); */
+  border-radius: 10px;
+  right: 0%;
+
+  transform: translateX(-5%);
+  opacity: 0;
+  transition: all 0.5s;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.user-options.show {
+  transform: translateX(5%);
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+}
+.user-options .button-mine {
+  width: 100%;
+  font-size: 1.8rem;
+}

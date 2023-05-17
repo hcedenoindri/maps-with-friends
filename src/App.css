@@ -1,0 +1,133 @@
+:root {
+  /* --primary-0: #03abf4;
+
+  --primary-1: #4bb8e7;
+
+  --primary-2: #15adef;
+
+  --primary-3: #0179ad;
+
+  --primary-4: #015a80;
+
+  --secondary-1-0: #0929f6;
+
+  --secondary-1-1: #5a6eeb;
+
+  --secondary-1-2: #2844f2;
+
+  --secondary-1-3: #031cb9;
+
+  --secondary-1-4: #03158c;
+
+  --secondary-2-0: #00f764;
+
+  --secondary-2-1: #45ed89;
+
+  --secondary-2-2: #0af369;
+
+  --secondary-2-3: #00c14e;
+
+  --secondary-2-4: #00933b;
+
+  --complement-0: #ff8700;
+
+  --complement-1: #ffaa4a;
+
+  --complement-2: #ff8c0b;
+
+  --complement-3: #ff8700;
+
+  --complement-4: #cc6c00; */
+
+  --primary-0: #537479;
+  --primary-1: #a4b3b6;
+  --primary-2: #738c90;
+  --primary-3: #3a6066;
+  --primary-4: #244a4f;
+
+  --secondary-1-0: #ee592e;
+  --secondary-1-1: #ff9c80;
+  --secondary-1-2: #ff7d57;
+  --secondary-1-3: #c9380e;
+  --secondary-1-4: #a02400;
+
+  --secondary-2-0: #774836;
+  --secondary-2-1: #c49482;
+  --secondary-2-2: #9e6a57;
+  --secondary-2-3: #63311f;
+  --secondary-2-4: #441a0a;
+
+  --green: #6c9e6c;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Pacifico";
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Nunito", sans-serif !important;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--green-alpha);
+  color: var(green-1);
+}
+
+.big-container {
+  margin: 0 auto;
+  max-width: 130em;
+}
+.container {
+  margin: 0 auto;
+  max-width: 130em;
+}

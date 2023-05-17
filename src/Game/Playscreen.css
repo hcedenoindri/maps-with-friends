@@ -1,0 +1,73 @@
+.playscreen h1 {
+  text-align: center;
+  font-size: 6.4rem;
+  color: var(--primary-1);
+}
+.playscreen {
+  padding: 6.4rem;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.playscreen-title {
+  transform: translate(0%, 80%);
+}
+
+.flex-position-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 90%);
+  color: var(--primary-1);
+  display: flex;
+  gap: 2rem;
+}
+.mode {
+  padding: 4.8rem;
+  border-radius: 10px;
+  -webkit-backdrop-filter: blur(1em);
+  backdrop-filter: blur(1em);
+  cursor: pointer;
+  box-shadow: 0 5px 5px 2px var(--primary-1);
+  transform: translateY(0) rotateX(10deg);
+  transition: all 0.2s;
+}
+
+.mode:hover {
+  transform: translateY(4px) rotateX(0);
+  box-shadow: 0 0 2px 2px var(--primary-1);
+}
+.mode {
+  background: transparent;
+  letter-spacing: 2px;
+  color: var(--primary-1);
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
+.game {
+  gap: 2.4rem;
+  display: flex;
+}
+.choose-game {
+  text-transform: uppercase;
+  padding: 1.8rem;
+  letter-spacing: 2px;
+  /* border: 2px solid var(--primary-1); */
+  border-radius: 10px;
+  -webkit-backdrop-filter: blur(1em);
+  backdrop-filter: blur(1em);
+  background: transparent;
+  color: var(--primary-1);
+  font-size: 2.4rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 5px 5px 2px var(--primary-1);
+  transform: translateY(0) rotateX(10deg);
+}
+
+.choose-game:hover {
+  transform: translateY(4px) rotateX(0);
+  box-shadow: 0 0 2px 2px var(--primary-1);
+}

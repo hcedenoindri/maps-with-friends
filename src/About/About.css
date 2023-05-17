@@ -1,0 +1,80 @@
+.game-view {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  position: relative;
+}
+
+.game-screen {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(41, 102, 12),
+    rgb(43, 20, 119)
+  );
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  top: 0;
+}
+
+.streetview {
+  width: 100%;
+  height: 100%;
+}
+
+.game-buttons {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 10%;
+  margin: 1rem 3rem 0 auto;
+}
+
+.globe-video {
+  border-radius: 50%;
+  width: 28%;
+  padding: 1rem 0;
+  z-index: 2;
+  display: block;
+  position: fixed;
+  bottom: 0.5rem;
+  right: 1rem;
+  /* transform: scale(1.5); */
+}
+
+.about-title {
+  font-size: 7.4rem;
+  text-align: center;
+  color: var(--primary-1);
+  font-weight: 400;
+  text-shadow: 0px 10px 1px #000;
+}
+
+.about-desc {
+  font-size: 5.2rem;
+  text-align: center;
+  color: var(--primary-1);
+  font-weight: 400;
+  text-shadow: 0px 4px 1px #000;
+}
+
+.about-ol {
+  list-style: none;
+}
+.dev-name {
+  padding-left: 40%;
+  text-align: start;
+  font-size: 4.2rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 120rem;
+}
+
+/* <a href="https://www.vecteezy.com/video/2014753-cartoon-world-spinning-around-itself">Cartoon world spinning around itself. Stock Videos by Vecteezy</a> */
+/* https://copy-paste-css.com/ */
+/* https://www.labnol.org/internet/embed-google-maps-background/28457/ */
+/* https://www.videvo.net/video/animated-spinning-earth-in-space/1633/ */

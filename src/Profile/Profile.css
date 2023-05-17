@@ -1,0 +1,108 @@
+.profile-items {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  gap: 2.4rem;
+}
+
+.profile-item {
+  border: 2px solid var(--primary-1);
+  padding: 2.4rem;
+  border-radius: 10px;
+
+  -webkit-backdrop-filter: blur(1em);
+  backdrop-filter: blur(1em);
+}
+.profile-item h3 {
+  font-size: 4rem;
+  color: var(--primary-1);
+  margin-bottom: 2.4rem;
+  text-align: center;
+}
+.profile-item p {
+  font-size: 2.4rem;
+  text-align: center;
+  color: var(--primary-1);
+  margin-bottom: 2.4rem;
+}
+
+.profile-item select {
+  width: 100%;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid var(--primary-1);
+  color: var(--primary-1);
+  border-radius: 4px;
+  font-size: 2rem;
+  cursor: pointer;
+  margin-bottom: 2.4rem;
+}
+
+.avatar-img-div svg {
+  width: 100%;
+  height: 100%;
+}
+.avatar-img-div {
+  width: 40%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3.6rem;
+}
+
+.button-mine.profile {
+  width: 100%;
+}
+.profile-item.username {
+  color: var(--primary-1);
+  border: 2px solid var(--primary-1);
+  /* background-color: var(--primary-1-0); */
+}
+.profile-item.username {
+  color: var(--primary-1);
+}
+
+.profile-item input {
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid var(--primary-1);
+  border-radius: 4px;
+  margin-bottom: 2.4rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 2rem;
+  color: var(--primary-1);
+}
+.profile-item input::placeholder {
+  color: var(--primary-1);
+}
+
+.profile-item {
+  padding: 4rem !important;
+}
+
+.button-mine.friends {
+  width: 100%;
+  padding: 1.2rem;
+}
+.button-box {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.friend-list {
+  position: absolute;
+  bottom: -20%;
+  left: 13%;
+  border: 2px solid var(--primary-1);
+  padding: 2.4rem;
+  border-radius: 4px;
+  display: flex;
+  gap: 2.4rem;
+  color: var(--primary-1);
+  -webkit-backdrop-filter: blur(1em);
+  backdrop-filter: blur(1em);
+}
