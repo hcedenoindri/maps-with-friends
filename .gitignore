@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 /src/GMap/GMapConfig.tsx
+src/Game/chatgptConfig.ts
 
 
 # testing
@@ -24,3 +25,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
